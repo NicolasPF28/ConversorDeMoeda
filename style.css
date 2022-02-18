@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; 
+    background-color: rgb(137, 219, 54);
+}
+ 
+
+.container{ 
+    flex-basis: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+#title{
+    text-decoration: underline;
+    user-select: none;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+}
+
+p{
+    font-size: 22px;
+}
+
+#botaoConverter{
+    margin-top: 20px;
+}
+
+#trocarMoeda{
+    width: 60px;
+    height: 40px;
+}
+
+#ajuste20{
+    margin-top: 10px;
+}
+
+#ajuste20{
+    text-align: center;
+    font-size: 30px;
+}
+
+button:hover{
+
+    background-color: black;
+    border: 1px solid lightgray;
+    color: lightgray;
+
+}
