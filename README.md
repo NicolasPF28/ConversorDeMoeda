@@ -1,1 +1,1 @@
-# resultado final: https://nicolaspf28.github.io/conversorDeMoedaEmJS/index.html
+# Dê  /git clone https://github.com/NicolasPF28/conversorDeMoedaEmJS/   para clonar o repositório e testá-lo
