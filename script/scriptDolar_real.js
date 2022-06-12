@@ -35,6 +35,8 @@ const logicaDolar_real  = async () => {
     const dados = await fetch (url);
     const endereco = await dados.json ();
 
+    console.log (endereco);
+
     function limparInputs (){
         dolar.value = '';
         real.value = '';
